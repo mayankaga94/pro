@@ -1,0 +1,145 @@
+/*style2.css second experiment*/
+
+body {
+  font-family: Arial,serif;
+  font-size:15px;
+  line-height: 1.5em;
+  padding:0px;
+  margin:0px;
+  color: black;
+
+  }
+
+  .container {
+    width: 50%;
+    margin:0px auto;
+    overflow: hidden;
+    padding: 0px;
+  }
+
+/*Header style begins*/
+
+header,footer {
+  /*width : 100%;*/
+  background-color : #35424a;
+  /*margin:0px;*/
+  padding-top:30px;
+  min-height:70px;
+  /*border-bottom: 0.5px black solid;*/
+  color: #ffffff;
+  border-bottom:#e8491d 3px solid;
+}
+
+header #logo{
+  font-style: normal;
+  font-family: monospace;
+  float:left;
+  padding-left: 10px;
+
+}
+
+header h1{
+ margin:0px;
+  /*color:white;*/
+}
+
+header .highlight {
+  color: #e8491d;
+}
+
+.selected a {
+
+  font-weight: bold;
+  font-size: 18px;
+  color: #e8491d;
+}
+
+a:hover{
+  color: #e8491d;
+}
+
+header li {
+  display:inline;
+  float:left;
+  padding:0px 10px 0px 10px;
+}
+
+header a {
+  text-decoration:none;
+  text-transform: uppercase;
+  font-size:16px;
+  color:white;
+  width: 100%;
+  height: 100%;
+}
+
+
+header nav{
+  float:right;
+}
+
+/*Header style ends*/
+footer{
+  position: relative;
+  bottom: 0px;
+  left: 0px;
+  width:100%;
+
+}
+footer h6{
+  text-align: center;
+}
+/*form*/
+#form {  /*section for form*/
+  /*-moz-box-sizing : border-box;
+  -webkit-box-sizing  : border-box;
+  box-sizing: border-box;
+  border: 2px black solid;*/
+  background: url('images/blur.jpg') no-repeat;
+  color: #ffffff;
+  background-size: cover;
+  min-height: 600px;
+}
+
+form{
+  /*padding: 10px;*/
+}
+/*#form .container {
+  -moz-box-sizing : border-box;
+  -webkit-box-sizing:border-box;
+  box-sizing: border-box;
+  height: auto;
+  width:80%;
+  margin:10px auto;
+  border:2px black solid;
+  padding :10px;
+}*/
+
+h1#form-title  {
+  text-align: center;
+
+}
+
+input , button {
+  width: 100%;
+  padding:10px;
+  -moz-box-sizing : border-box;
+  -webkit-box-sizing  : border-box;
+  box-sizing: border-box;
+  margin-bottom: 10px;
+  background-color: grey;
+  opacity: 0.4;
+  color: #ffffff;
+  border: none;
+  font-size: 16px;
+  font-weight:bold;
+}
+
+::placeholder{
+  color: #ffffff;
+}
+
+button{
+
+  /*width: 50%;*/
+}
