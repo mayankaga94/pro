@@ -19,6 +19,12 @@ body {
 
   ul{
     padding:0px;
+    -webkit-padding-start: 0px;
+  }
+
+  button#submit {
+    background-color: #e8491d;
+    opacity: 1.0;
   }
 
 /*Header style begins*/
@@ -30,6 +36,7 @@ header,footer {
   padding-top:30px;
   min-height:70px;
   /*border-bottom: 0.5px black solid;*/
+
   color: #ffffff;
   border-bottom:#e8491d 3px solid;
 }
@@ -103,9 +110,19 @@ footer h6{
   background: url('images/blur.jpg') no-repeat;
   color: #ffffff;
   background-size: cover;
-  min-height: 600px;
-}
+  min-height: 1000px;
 
+}
+#incont{
+  width: 60%;
+  float: left;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+.sidebar{
+  width: 30%;
+  float:left;
+}
 form{
   /*padding: 10px;*/
 }
@@ -138,10 +155,13 @@ input , button {
   border: none;
   font-size: 16px;
   font-weight:bold;
+
 }
 
 ::placeholder{
   color: #ffffff;
+  font-size: 20px;
+  font-weight: bold;
 }
 
 button{
@@ -186,9 +206,10 @@ button{
     padding-bottom:0px;
   }
   header nav{
-    padding-top:10px;
+    padding-top:0px;
     margin: 0px;
     float: none;
+    clear: none;
   }
   header{
     padding-top: 0px;
