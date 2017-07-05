@@ -17,6 +17,10 @@ body {
     padding: 0px;
   }
 
+  ul{
+    padding:0px;
+  }
+
 /*Header style begins*/
 
 header,footer {
@@ -88,6 +92,7 @@ footer{
 }
 footer h6{
   text-align: center;
+  margin: 0px;
 }
 /*form*/
 #form {  /*section for form*/
@@ -142,4 +147,92 @@ input , button {
 button{
 
   /*width: 50%;*/
+}
+
+@media only screen and (max-width:768px) {
+  body{
+    font-size: 9px;
+  }
+
+  h1{
+    font-size: 30px;
+  }
+
+  .container {
+      width: 100%;
+  }
+
+/*header styles*/
+  #head{
+    padding-top: 15px;
+  }
+
+  div#logo{
+    margin-bottom: 15px;
+  }
+
+  header li{
+    float:left;
+    width: 100%;
+    text-align: center;
+    font-size:50px;
+    padding:0px;
+    margin-bottom:5px;
+    border-bottom:3px #e8491d solid;
+    padding-bottom: 5px;
+  }
+   li.bottom{
+    border-bottom:none;
+    padding-bottom:0px;
+  }
+  header nav{
+    padding-top:10px;
+    margin: 0px;
+    float: none;
+  }
+  header{
+    padding-top: 0px;
+}
+  div#logo{
+    width: 100%;
+    padding:0px;
+  }
+  header div#logo h1{
+    text-align: center;
+    margin: 0px;
+    font-size: 30px;
+  }
+/*header styke ends*/
+
+/*form design*/
+h1#form-title{
+  padding: 20px 0px;
+}
+
+div#incont{
+  /*padding-left:  10px;*/
+  /*padding-right: 10px;*/
+}
+
+input,button{
+  width: 95%;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+/*form design ends*/
+
+/*footer begins*/
+  footer{
+    min-height: 40px;
+    max-height :50px;
+    margin-bottom: 0px;
+    padding-top: 0px;
+  }
+  footer div.container{
+      /*margin: 13.5px 0px;*/
+  }
+  footer h6{
+    margin: 13.5px 0px;
+  }
+
 }
