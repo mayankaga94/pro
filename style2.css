@@ -12,7 +12,7 @@ body {
 
   .container {
     width: 100%;
-    margin:0px 5px;
+    margin:0px;
     overflow: hidden;
     padding: 0px;
   }
@@ -176,7 +176,11 @@ button{
   .container {
       width: 100%;
   }
+  .allcontent{
+    min-height:1500px;
+    width:100%;
 
+  }
 /*header styles*/
   #head{
     padding-top: 15px;
@@ -225,9 +229,11 @@ h1#form-title{
   padding: 20px 0px;
 }
 
-div#incont{
-  /*padding-left:  10px;*/
-  /*padding-right: 10px;*/
+section#form{
+  width:99%;
+}
+.sidebar{
+  width:99%;
 }
 
 input,button{
